@@ -1,0 +1,99 @@
+/*!base css start */
+@import url('https://fonts.googleapis.com/css2? family= Elektrolize & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-family:  'Elektroliz', sans-serif;
+    
+}
+/*!base css end */
+.navbar{
+    background-color: #000;
+    height: 60px;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+}
+.logo{
+    font-size: 30px;
+    color: rgb(255, 70, 70);
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    text-align: left;
+    
+} 
+.menu-list-item{
+    cursor: pointer;
+}
+.menu-list-item:hover{
+    font-weight: bold;
+
+}
+.menu-list-item-active{
+    font-weight: bold; 
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.profile-picture{
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+
+}
+.toggle{
+    width: 40px;
+    background-color:white ;
+    position: relative;
+    border-radius: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.toggle-icon{
+    color: goldenrod;
+}
+.toggle-ball{
+    height: 18px;
+    width: 18px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    right: 1px;
+    position: absolute;
+
+}
+.sidebar{
+    background-color: #000;
+    color: #fff;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    row-gap: 40px;
+}
